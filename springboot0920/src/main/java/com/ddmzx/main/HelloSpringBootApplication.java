@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  * 暂时关闭数据源:
  @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class}) //不关启动会报错
-@RestController
+/*@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class}) //不关启动会报错
+@RestController*/
 public class HelloSpringBootApplication {
 
     /*
@@ -25,7 +25,7 @@ public class HelloSpringBootApplication {
 
         return  "Hello  Springboot";
     }
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         SpringApplication.run(HelloSpringBootApplication.class,args);
-    }
+    }*/
 }

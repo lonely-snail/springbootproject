@@ -10,7 +10,6 @@ public class StudentConfiguration {
 
      @Bean
      public  Student   student(){
-
          return  new Student();
      }
 }
